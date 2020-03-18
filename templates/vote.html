@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+    function agree(){
+          window.location.replace("http://10.51.2.171:5002/agree")
+    }
+    function deny() {
+        window.location.replace("http://10.51.2.171:5002/deny")
+        }
+    function back(){
+        window.location.replace("http://10.51.2.171:5002/")
+    }
+    </script>
+    <h1>投票页</h1>
+    请投票
+    <input type="submit" value="通过" onClick="agree()" />
+    <input type="submit" value="反对" onClick="deny()" />
+    <input type="submit" value="返回" onClick="back()" />
+</body>
+</html>
