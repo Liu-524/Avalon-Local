@@ -29,6 +29,7 @@
     <Content Include="templates\index.html" />
     <Content Include="templates\success_page.html" />
     <Content Include="templates\display.html" />
+    <Content Include="templates\player.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="templates\" />
