@@ -24,7 +24,8 @@ def init():
 
 @app.route("/<player>")
 def result(player):
-    return render_template("player.html", player_char = c_a.character[int(player)])
+    x = int(float(player))
+    return render_template("player.html", player_char = c_a.character[x])
 
 @app.route("/vote")
 def vote():
