@@ -28,6 +28,7 @@
     <Content Include="templates\vote.html" />
     <Content Include="templates\index.html" />
     <Content Include="templates\success_page.html" />
+    <Content Include="templates\display.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="templates\" />

@@ -35,7 +35,7 @@ def clear():
 
 @app.route("/display")
 def display():
-    return "通过：" + str(current_app.c_pass) + "\n" + "反对：" + str(current_app.c_deny)  + "\n"
+    return render_template("display.html", hao = current_app.c_pass, huai = current_app.c_deny)
 
 if __name__ == "__main__":
     app.run("0.0.0.0", 5002,debug=True)
